@@ -1,0 +1,11 @@
+{
+  "contact_email": "CONTACT_EMAIL",
+  "invite_code": "INVITE_CODE",
+  "storage_username": "STORAGE_USERNAME",
+  "storage_password": "STORAGE_PASSWORD",
+  "phantom_api_secret": "PHANTOM_API_SECRET",
+  "mail_smtp_host": "MAIL_SMTP_HOST",
+  "mail_smtp_port": "MAIL_SMTP_PORT",
+  "mail_smtp_user": "MAIL_SMTP_USER",
+  "mail_smtp_pass": "MAIL_SMTP_PASS"
+}

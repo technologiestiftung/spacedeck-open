@@ -1,0 +1,30 @@
+services:
+  - type: web
+    region: frankfurt
+    name: spacedeck
+    plan: standard
+    env: docker
+    dockerCommand: ./docker-command.sh
+    disk:
+      name: spacedeck
+      mountPath: /opt/render/project/storage
+      sizeGB: 10
+    envVars:
+      - key: CONTACT_EMAIL
+        sync: false
+      - key: INVITE_CODE
+        generateValue: true
+      - key: STORAGE_USERNAME
+        sync: false
+      - key: STORAGE_PASSWORD
+        generateValue: true
+      - key: PHANTOM_API_SECRET
+        generateValue: true
+      - key: MAIL_SMTP_HOST
+        sync: false
+      - key: MAIL_SMTP_PORT
+        sync: false
+      - key: MAIL_SMTP_USER
+        sync: false
+      - key: MAIL_SMTP_PAS
+        sync: false

@@ -14,8 +14,8 @@
   "storage_username": "username",
   "storage_password": "password",
 
-  "storage_local_path": "./storage",
-  "storage_local_db": "./database.sqlite",
+  "storage_local_path": "/opt/render/project/storage",
+  "storage_local_db": "/opt/render/project/database.sqlite",
   "storage_region": "eu-central-1",
   "storage_endpoint": "http://localhost:4572",
   "storage_bucket": "my_spacedeck_bucket",
