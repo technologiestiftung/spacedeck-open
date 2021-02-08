@@ -26,5 +26,5 @@ services:
         sync: false
       - key: MAIL_SMTP_USER
         sync: false
-      - key: MAIL_SMTP_PAS
+      - key: MAIL_SMTP_PASS
         sync: false
